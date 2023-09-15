@@ -1,5 +1,0 @@
-import{g as o,k as t,r as c,o as a,P as r,w as i,a as _}from"./app-ce0a6e75.js";import{_ as p}from"./plugin-vue_export-helper-c27b6911.js";const l="ixiayu-blog",d="1.4.0",u="ixiayu的个人博客",v="MIT",m="module",h={build:"vuepress build src",dev:"vuepress dev src --clean-cache",preview:"go run ./_shell/main.go ",update:"pnpm dlx vp-update",sync:"./_shell/GitSync.sh",deploy:"bash Deploy.sh"},y={"@vuepress/client":"2.0.0-beta.67",aplayer:"^1.10.1",axios:"^1.4.0",vue:"^3.3.4",vuepress:"2.0.0-beta.67","vuepress-theme-hope":"2.0.0-beta.237"},f={"@types/store":"^2.0.2",store:"^2.0.12","vue-router":"^4.2.4","vuepress-plugin-search-pro":"2.0.0-beta.237"},x={name:l,version:d,description:u,license:v,type:m,scripts:h,devDependencies:y,dependencies:f},b=_("div",{class:"none"},"版本打印",-1),g=`   
-___  _ _  ____ ___  _ _    
-  /// /  _ \\  ///  /   / | || / |   / | | ||
- /   | || |-|| / /  | _/|
-/__/\\_/_/ |/_/   ____/ `,P=o({__name:"PrintVersion",setup(k){const e=()=>{console.info(g+x.version)};return t(()=>{e()}),(s,C)=>{const n=c("ClientOnly");return a(),r(n,null,{default:i(()=>[b]),_:1})}}}),w=p(P,[["__file","PrintVersion.vue"]]);export{w as default};
