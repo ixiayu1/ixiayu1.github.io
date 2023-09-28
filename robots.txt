@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://ixiayu/sitemap.xml
+Sitemap: https://执念/sitemap.xml
